@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/fork1.sol": {
-			"keccak256": "0x5d70d3ff351e15fdb9529f91286eb554291011294017b5900c7d1fe342c04cab",
+			"keccak256": "0xef151e6f0875db659bf7632cb9d9d1fa1695eefbcfa7adc9b58f89605398671d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://211e4d84bd882c1c1d7c1226d14fa1533e6a97bb6d51cb65343a9d2c94031839",
-				"dweb:/ipfs/QmWVDegZnuFjaNAyGRUYttjKaLbHpcfe6ec91NZF3Pxzjf"
+				"bzz-raw://28fa4e1cd4786857895affd00da6ce29537d50d5ee3886a2ddf6e65262c24a74",
+				"dweb:/ipfs/Qmb4Xjo6RLYxaSv1TvsrWKkgNY68uR9WZwM2LJBNqNmy9H"
 			]
 		},
 		"https://github.com/ensdomains/ens-contracts/blob/master/contracts/utils/NameEncoder.sol": {
