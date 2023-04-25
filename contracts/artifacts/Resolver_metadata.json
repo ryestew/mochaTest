@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "node",
+						"type": "bytes32"
+					}
+				],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fork1.sol": "Resolver"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/fork1.sol": {
+			"keccak256": "0x5d70d3ff351e15fdb9529f91286eb554291011294017b5900c7d1fe342c04cab",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://211e4d84bd882c1c1d7c1226d14fa1533e6a97bb6d51cb65343a9d2c94031839",
+				"dweb:/ipfs/QmWVDegZnuFjaNAyGRUYttjKaLbHpcfe6ec91NZF3Pxzjf"
+			]
+		},
+		"https://github.com/ensdomains/ens-contracts/blob/master/contracts/utils/NameEncoder.sol": {
+			"keccak256": "0x63fd5f360cef8c9b8b8cfdff20d3f0e955b4c8ac7dfac758788223c61678aad1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://773888eb3bac1b9b3cf391078587967d73c04baca252060b1c73bb8fb89d6da2",
+				"dweb:/ipfs/QmXYBKH1sxUT6yzR3AcLuY1hE95osoMRxi3seySmzWQQCn"
+			]
+		},
+		"https://github.com/ensdomains/ens-contracts/blob/master/contracts/wrapper/BytesUtils.sol": {
+			"keccak256": "0xf862cd86d749158a554e3cb517efa9097331ec0cf7225117f21e96fb50c67edb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a694ac54694999c9364cadf0303c514d53129302ea9830305c91f948177fcdbc",
+				"dweb:/ipfs/QmNYexKr25oC8hsnR4aBWaCrS48nwuYZxs6Qr3tSh6vNgr"
+			]
+		}
+	},
+	"version": 1
+}
