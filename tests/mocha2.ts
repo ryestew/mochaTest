@@ -5,9 +5,9 @@ const fs = require("fs")
 describe("Storage", function () {
   it("test initial value", async function () {
     // Make sure contract is compiled and artifacts are generated
-    console.log('process.cwd(): ', process.cwd())
+    // console.log('process.cwd(): ', process.cwd())
     const metadata = JSON.parse(fs.readFileSync('./contracts/artifacts/MyResolver.json'))
-    console.log('metadata: ', metadata)
+    // console.log('metadata: ', metadata)
     const signer = (new ethers.providers.Web3Provider(web3Provider)).getSigner()
     let MyResolver = new ethers.ContractFactory(metadata.abi, metadata.data.bytecode.object, signer);
     let myResolver = await MyResolver.deploy();
