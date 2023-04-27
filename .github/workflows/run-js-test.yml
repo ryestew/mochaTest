@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run Mocha Chai Unit Test Action
-      uses: EthereumRemix/ts-sol-test@v1.3.1
+      uses: EthereumRemix/ts-sol-test@v1.4.0-dev
       with:
         test-path: 'tests'
         contract-path: 'contracts'
@@ -18,3 +18,4 @@ jobs:
         node-url: 'https://eth-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf'
         block-number: 'latest'
         hard-fork: 'merge'
+        mocha-timeout: '30000'
